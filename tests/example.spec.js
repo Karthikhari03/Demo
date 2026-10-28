@@ -6,7 +6,19 @@ test('SauceDemo', async ({ loginPage}) => {
   await loginPage.login(
     user.user6.name,
     user.password
+
+    //await loginPage.login(
+    //user.user6.name,
+    //user.password
+
+
+    //await loginPage.login(
+    //user.user6.name,
+    //user.password
+
   );
+
+  
 
 
 
